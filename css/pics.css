@@ -1,0 +1,34 @@
+
+#gallery {
+	/* background-color: #444; */
+	padding: 10px;
+	width: 520px;
+}
+#gallery ul { 
+	list-style: none; 
+}
+#gallery ul li { 
+	display: inline-block ;
+}
+.caption{
+	margin: 0 0 0 0;
+	padding: 0 1em 0 1em;
+	font-style:italic;
+}
+
+.pic_story{
+	margin: 0em 2em 0em 2em;
+	padding: 1em 1em 1em 1em;	
+}
+
+
+#gallery ul img {
+	border: 5px solid #fff;
+	border-width: 5px 5px 5px;
+}
+#gallery ul a:hover img {
+	border: 5px solid #ccc;
+	border-width: 5px 5px 5px;
+	color: #fff;
+}
+#gallery ul a:hover { color: #fff; }
